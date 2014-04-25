@@ -1,0 +1,109 @@
+/*
+Theme Name: burnman
+Author: spaling
+Author URI: chen.thus.in
+Description: Blog's Theme,base on WordPress.
+Version: 1.0
+*/
+
+@import url("//fonts.googleapis.com/css?family=Lato:300，400,500,700,400italic");
+@font-face {
+  font-family:"chen";
+  src:url(fonts/br.woff);
+}
+img {
+max-width: 100%;
+width: auto\9;
+height: auto;
+border: 0;
+vertical-align: middle;
+-ms-interpolation-mode: bicubic;
+}
+a:hover {
+  text-decoration: none;
+}
+body,h1,h2,h3,h4{font-family: "chen","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;;
+  font-style: normal;
+  font-weight: 400;}
+body {
+  background: #eee;
+  background-image: url("./images/blog_background.png");
+  color: #000;
+  text-shadow: 0 0 1px transparent;
+  font-size:14px
+}
+
+.nav {
+  font-size: 0.5em;
+  margin-top: 40px;
+}
+
+.navbar a {
+  color: #999;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 2em;
+  line-height: 1;
+  }
+
+
+.navbar {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.navbar .description {
+  font-size: 0.9em;
+  padding-top: 10px;
+}
+
+.navbar-toggle {
+  border-color: #999;
+  margin-top: 18px;
+  }
+
+.navbar-toggle .icon-bar {
+  background-color: #999;
+}
+
+.description {
+  display: block;
+}
+
+
+
+.post {
+  box-shadow: 1px 2px 3px #ddd;
+  background: #fff;
+  padding: 28px;
+  margin-bottom: 30px;
+}
+
+#sidebar ul{
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar h4{
+  padding: 0px 15px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+#sidebar li{
+  padding-left: 15px;
+  line-height: 2em;
+}
+
+.side-col {
+  box-shadow: 1px 2px 3px #ddd;
+  background: #fff;
+  padding: 12px 18px;
+  margin-bottom: 30px;
+}
+
+.side-col-search{
+  box-shadow: 1px 2px 3px #ddd;
+  background: #fff;
+  padding: 28px 18px;
+  margin-bottom: 30px;
+}
